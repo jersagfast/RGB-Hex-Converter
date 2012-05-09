@@ -75,7 +75,7 @@ void setup() {
   nokia.command(PCD8544_DISPLAYCONTROL | PCD8544_DISPLAYALLON);
   nokia.command(PCD8544_DISPLAYCONTROL | PCD8544_DISPLAYNORMAL);
   nokia.clear();
-  nokia.drawstring(3, 2, "thecusomgeek");
+  nokia.drawstring(3, 2, "thecustomgeek");
   nokia.drawstring(27, 3, ".com");  
   nokia.display();
   delay(2000);
